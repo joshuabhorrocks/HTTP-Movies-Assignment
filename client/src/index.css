@@ -66,6 +66,19 @@ body {
   color: white;
 }
 
+.update-button {
+  position: absolute;
+  top: 65px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 6px 6.5px;
+  background-color: lightseagreen;
+}
+.update-button:hover {
+  background-color: green;
+  color: white;
+}
+
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
@@ -74,4 +87,59 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.update-form {
+  background-color: #fff;
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  margin: 1rem auto;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.updateF-title {
+  margin-right: 1%;
+  text-align: center;
+}
+
+.input {
+  margin: 1% 1.25%;
+  border-radius: 2px;;
+}
+
+.updateF-buttons {
+  margin: 5% 10%;
+}
+
+.update-button2 {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  border: 1px solid grey;
+  padding: 6px 5px;
+  background-color: lightseagreen;
+}
+.update-button2:hover {
+  background-color: green;
+  color: white;
+}
+
+.delete-button {
+  position: absolute;
+  top: 60px;
+  right: 15px;
+  border: 1px solid grey;
+  padding: 6px 7px;
+  background-color: lightseagreen;
+}
+.delete-button:hover {
+  background-color: green;
+  color: white;
 }
